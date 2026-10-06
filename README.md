@@ -1,3 +1,8 @@
+# Robot Arm Project
+
+## Project Structure
+
+```
 robot_arm_project/
 ├── arduino_firmware/                    # separate from app, no build system
 │   ├── arm_a/arm_a.ino                  # generic command set (MOVE_JOINTS, JOG, STOP, HOME, GRIPPER, PING...)
@@ -69,3 +74,4 @@ robot_arm_project/
 │   └── install.sh                       # installs .desktop + icon, runs update-desktop-database
 │
 └── README.md
+```
